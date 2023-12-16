@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,13 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<style>
-    body{
-        background-color: aquamarine;
-    }
-</style>
 <body>
-<h1>my name is lakhman</h1>
-
+<form action="add" method="post">
+    {% csrf_token %}
+    Enter 1st Number : <input type="text" name="num1"> <br>
+    Enter 2nd Number : <input type="text" name="num2"> <br>
+        <input type="submit">
+</form>
 </body>
 </html>
