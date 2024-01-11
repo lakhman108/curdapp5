@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: -apple-system;
+    size:30px;
+    color: aliceblue;
+}

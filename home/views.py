@@ -12,11 +12,11 @@ def add(request):
     res = int(value1) + int(value2)
     return render(request, 'result.html', {'res': res})
 def about(request):
-    return HttpResponse("this <br>is<b> the about page")
+    return render(request,'base.html')
 
 
 def contacts(request):
-    return HttpResponse("this is the contanct page")
+    return render(request, 'forms.py')
 
 
 def services(request):
