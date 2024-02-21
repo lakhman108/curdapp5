@@ -9,6 +9,6 @@ admin.site.index_title  =  "Lakhman web services Admin"
 urlpatterns = [
    path('', views.main_page),
    path('newpages/',views.landing_page),
-
+   parh(),
 
 ]
